@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: california;
+    src: url('fontes/The California.ttf') format(truetype);
+
+    /* tipos de formatos:
+        - opentype(otf) obs: existe fontes opentype que são ttf
+        - truetype(ttf)
+        - truetype-aat(apple advanced typegraphy)
+        - svg
+    */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    font: 100px california, serif;
+
+}
